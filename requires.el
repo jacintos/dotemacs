@@ -4,3 +4,4 @@
 (require 'yasnippet)
 (require 'ido)
 (require 'gist)
+(require 'yaml-mode)
