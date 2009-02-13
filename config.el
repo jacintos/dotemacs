@@ -21,3 +21,6 @@
 (setq x-select-enable-primary nil)
 (setq x-select-enable-clipboard t)
 (setq mouse-drag-copy-region nil)
+
+; Disable bell
+(setq ring-bell-function 'ignore)
