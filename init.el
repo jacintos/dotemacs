@@ -19,3 +19,9 @@
 
 (color-theme-initialize)
 (color-theme-tm)
+
+;; Use the ELPA
+(when
+    (load
+     (expand-file-name "~/.emacs.d/elpa/package.el"))
+  (package-initialize))
