@@ -5,6 +5,7 @@
 (add-to-list 'load-path "~/.emacs.d/site-lisp/haskell-mode")
 (add-to-list 'load-path "~/.emacs.d/site-lisp/yasnippet")
 (add-to-list 'load-path "~/.emacs.d/site-lisp/yaml-mode")
+(add-to-list 'load-path "~/.emacs.d/site-lisp/fsharp-mode")
 
 (load "~/.emacs.d/requires")
 (load "~/.emacs.d/bindings")
