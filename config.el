@@ -24,3 +24,7 @@
 
 ; Disable bell
 (setq ring-bell-function 'ignore)
+
+; Allow yasnippets to properly trigger in Markdown mode
+(add-hook 'markdown-mode-hook
+          '(lambda() (define-key markdown-mode-map (kbd "<tab>") nil)))
